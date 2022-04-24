@@ -82,9 +82,9 @@ function changeTheme() {
   let theme = document.getElementById("theme");
   if (theme.getAttribute("href") === lightTheme) {
     theme.href = darkTheme;
-    darkMode.innerHTML = "Mode Gelap 🌞";
+    darkMode.innerHTML = "Mode Terang 🌞";
   } else {
     theme.href = lightTheme;
-    darkMode.innerHTML = "Mode Terang 🌙";
+    darkMode.innerHTML = "Mode Gelap 🌙";
   }
 }
